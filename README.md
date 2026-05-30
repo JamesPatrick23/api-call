@@ -1,3 +1,40 @@
+CABALUNA,JAMES PATRICK C.
+
+ELEC 1
+
+API CALL – POSTMAN
+
+SETUP DESCRIPTION
+
+First, create a Laravel project using the command:
+
+laravel new "projectname"
+
+Next, create the model, migration, and controller using Artisan commands. Add the routes in api.php and create the students table using Laravel migration.
+
+Run php artisan serve and copy the generated link.
+
+After the setup, open Postman, create an HTTP request, and paste the link. Create a workspace and collection for organizing the API requests.
+
+Inside the collection, create different requests:
+
+GET – Displays student data in JSON format.
+
+POST – Adds a new student with name, course, and email.
+
+PUT – Updates the student information by ID.
+
+PATCH – Updates a single field or selected data.
+
+DELETE – Deletes a student by ID or removes all records.
+
+URL HTTP:
+http://127.0.0.1:8000/api/students
+
+LINK OF MY VIDEO:
+https://drive.google.com/file/d/1z-7oN0vmeuX3QBDsqHV3n13weXpAceQZ/view?usp=drivesdk
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
